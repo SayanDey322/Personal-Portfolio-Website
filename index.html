@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4185352d49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <img src="BgRemovedProfilePic.jpg" class="profile"/>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </nav>
+
+            <img src="Logo.png" class="logo">
+            <div class="header-text">
+                <p id="uiux">UI/UX Designer</p>
+                <h1 id="sayon"><b>Hi, I'm <span>Sayon Dey</span> <br>from Dhanbad</b><br>Jharkhand</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="portfolio.jpg" id="img2"/>
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="intro">Hi, I'm pursuing Bachelor's degree in Electronics and Communication Engineering. I have strong hands-on skills in programming languages like C, C++, Java and JavaScript, along with front-end technologies like HTML, CSS and React. I'm especially interested in software development.
+                    <br><br>Outside of coding, I enjoy playing cricket and football. I also love to travel and explore new places. I'm a quick learner. I'm always eager to learn, grow and take on exciting challenges that push me to the next level.</p>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Netflix Clone</span><br>A responsive Netflix landing page</li>
+                            <li><span>Mini Game</span><br>Stone-Paper-Scissors</li>
+                            <li><span>Weather App</span><br>Simple and elegant Weather App</li>
+                            <li><span>Dice Roll Simulator</span><br>Simple and interactive game</li>
+                            <li><span>Pasword Generator</span><br>Generating Random Passwords</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" ID="education">
+                        <ul>
+                            <li><span>Matriculation</span><br>Delhi Public School, Dhanbad</li>
+                            <li><span>Intermediate</span><br>Delhi Public School, Dhanbad</li>
+                            <li><span>B.Tech</span><br>Haldia Institute of Technology</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web Design is the art of creating visually appealing and user friendly websites that provide seamless digital experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design is all about creating meaningful and user-centered digital experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg" />
+                    <div class="layer">
+                        <h3 id="mam">Netflix Clone</h3>
+                        <p>Built a responsive Netflix landing page clone that replicates the look and feel of the original platform.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg" />
+                    <div class="layer">
+                        <h3 id="mam">Stone Paper Scissors</h3>
+                        <p>A simple and interactive Stone Paper Scissors game built using HTML, CSS and JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work4.jpg" />
+                    <div class="layer">
+                        <h3 id="mam">Dice Roll Simulator</h3>
+                        <p>A simple and interactive Dice Roll Simulator built using HTML, CSS and JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work5.jpg" />
+                    <div class="layer">
+                        <h3 id="mam">Password Generator</h3>
+                        <p>A simple and customisable Password Generator that generates strong and random paswords for user.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>deysayon6@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91 8709420951</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sayon. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js">
+        
+    </script>
+    
+</body>
+</html>
